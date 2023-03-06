@@ -5,7 +5,6 @@ c=float(input("c="))
 p=(a+b+c)/2
 S=math.sqrt(p*(p-a)*(p-b)*(p-c))
 if (a+b)>c and (a+c)>b and (b+c)>a:
-    print("Dien tich=", round(S,3), sep="")
-    
+    print("Dien tich=", round(S,3), sep="")   
 else:
     print("Khong hop le")

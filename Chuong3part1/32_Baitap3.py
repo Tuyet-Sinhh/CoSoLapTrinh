@@ -5,7 +5,7 @@ if ch=="/":
     if y==0:
         print("Khong hop le")
     else:
-        print(x,"+",y,"=",x+y,sep="")  
+        print(x,"/",y,"=",x/y,sep="")  
 elif ch=="+":
     print(x,"+",y,"=",x+y,sep="")  
 elif ch=="-":
