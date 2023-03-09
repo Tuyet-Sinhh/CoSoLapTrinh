@@ -5,13 +5,12 @@ if ch=="/":
     if y==0:
         print("Khong hop le")
     else:
-        print(x,"/",y,"=",x/y,sep="")  
+        print(x,"/",y,"=",round(x/y,1),sep="")  
 elif ch=="+":
-    print(x,"+",y,"=",x+y,sep="")  
+    print(x,"+",y,"=",round(x+y,1),sep="")  
 elif ch=="-":
-    print(x,"-",y,"=",x-y,sep="")   
+    print(x,"-",y,"=",round(x-y,1),sep="")   
 elif ch=="*":
-    print(x,"*",y,"=",x*y,sep="")   
-
+    print(x,"*",y,"=",round(x*y),sep="")   
 else:
     print("Khong hop le") 
