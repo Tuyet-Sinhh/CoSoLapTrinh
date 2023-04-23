@@ -1,4 +1,4 @@
-for i in range(9999):
+for i in range(9):
     n=int(input(""))
     s=1
     for i in range (1,n+1):
